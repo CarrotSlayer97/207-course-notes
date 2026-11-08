@@ -43,6 +43,6 @@ public class Rectangle {
    * @return if this rectangle is bigger than other
    */
   public boolean isLargerThan(Rectangle other) {
-    return area() == other.area();
+    return area() > other.area();
   }
 }
